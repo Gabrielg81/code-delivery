@@ -16,7 +16,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Docker](https://www.docker.com/products/docker-desktop)
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/download)
 
-### 🎲 Rodando o Back End (servidor)
+### 🎲 Rodando o BackEnd (servidor) Golang
 
 ```bash
 # Clone este repositório
@@ -27,10 +27,6 @@ $ cd simulator-go
 
 # Rode o comando para instalar as imagens contidas no arquivo docker-compose.yml
 docker-compose up -d
-
-# Rode o comando para acessar e rodar comandos no terminal do servidor
-docker exec -it simulator bash
-
 
 
 ```
